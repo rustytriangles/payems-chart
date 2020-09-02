@@ -5,9 +5,9 @@ import { line } from 'd3-shape'
 import { scaleLinear, scaleTime } from 'd3-scale'
 import { axisBottom, axisLeft } from 'd3-axis'
 
-const margin = {top: 10, right: 30, bottom: 30, left: 60}
+const margin = {top: 60, right: 30, bottom: 30, left: 60}
 const width = 600 - margin.left - margin.right
-const height = 400 - margin.top - margin.bottom
+const height = 300 - margin.top - margin.bottom
 
 const LineChart = ({ data }) => {
     const d3svg = useRef(null)
