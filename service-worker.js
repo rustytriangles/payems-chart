@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/payems-chart/precache-manifest.c6638e6494abc2f615e7be7cba8fe6a2.js"
+  "/payems-chart/precache-manifest.41fe7d07565993cc59ff8bf6c034895f.js"
 );
 
 self.addEventListener('message', (event) => {
