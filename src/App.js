@@ -1,9 +1,9 @@
 import React from 'react';
-import BarChartData from './components/BarChartData'
+import LineChartData from './components/LineChartData'
 
 function App() {
     return (
-            <BarChartData />
+        <LineChartData />
     )
 }
 

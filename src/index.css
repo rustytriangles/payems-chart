@@ -4,7 +4,7 @@ body {
 }
 
 svg {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
 }
 
 text {
@@ -12,7 +12,6 @@ text {
 }
 
 .axis .domain {
-  stroke: none;
 }
 
 .x .tick text {
